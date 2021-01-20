@@ -91,7 +91,7 @@ Post form-data
 
 ### 扇贝
 
-- API：https://api.tecchen.xyz/api/quote/
+- API：https://apiv3.shanbay.com/weapps/dailyquote/quote/
 - 请求方法：GET
 - 调性：励志，鸡汤
 - 类型：图文
@@ -100,37 +100,39 @@ Post form-data
 
 ```
 {
-    "code": 0,
-    "message": "成功",
-    "data": {
-        "id": "bqtss",
-        "author": "《蝙蝠侠：黑暗骑士》",
-        "content": "The night is darkest just before the dawn. And I promise you, the dawn is coming.",
-        "assignDate": "2019-03-06",
-        "adUrl": null,
-        "shareUrl": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-        "shareUrls": {
-            "weibo": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "shanbay": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "wechat": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "qzone": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "wechat_user": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/"
-        },
-        "trackObject": {
-            "code": "abb22",
-            "share_url": "https://www.shanbay.com/soup/mobile/quote/2019-03-06/",
-            "object_id": 2528
-        },
-        "translation": "黎明前的夜最黑暗。我向你们保证，黎明就要来到。",
-        "originImgUrls": [
-            "https://media-image1.baydn.com/soup_pub_image/ccdbwr/c8da96fd69d9d53a0a995945b54f192d.6ae4029909d0e049b396381a5e53a5f6.png",
-            "https://media-image1.qiniu.baydn.com/soup_pub_image/ccdbwr/c8da96fd69d9d53a0a995945b54f192d.6ae4029909d0e049b396381a5e53a5f6.png?imageView2/2/w/1080/format/webp"
-        ],
-        "shareImgUrls": [
-            "https://media-image1.baydn.com/soup_pub_image/hcmuf/9ffabf03e3f5a09058b0843f12e88faa.988d4a7565f4aae4af6e6bac720350bb.png@!w720",
-            "https://media-image1.qiniu.baydn.com/soup_pub_image/hcmuf/9ffabf03e3f5a09058b0843f12e88faa.988d4a7565f4aae4af6e6bac720350bb.png?imageView2/2/w/720/"
-        ]
-    }
+    "id": "burftz",
+    "content": "Action is the foundational key to all success.",
+    "author": "Pablo Picasso",
+    "assign_date": "2021-01-20",
+    "ad_url": null,
+    "origin_img_urls": [
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/db32135fc46e4034d4324ea287463398.74d716b6f0f616ccaa4c7dda0d45ed23.jpeg",
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/db32135fc46e4034d4324ea287463398.74d716b6f0f616ccaa4c7dda0d45ed23.jpeg"
+    ],
+    "track_object": {
+        "code": "abb22",
+        "share_url": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+        "object_id": 5127
+    },
+    "join_num": 31,
+    "share_url": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+    "poster_img_urls": [
+        "https://media-image1.baydn.com/dailyquote/url-5f7fe6a351820ee6c80deac910f604d99782b5205080e9a70437ecb616eeba09.jpg?x-oss-process=image/quality,Q_80/format,webp",
+        "https://media-image1.baydn.com/dailyquote/url-5f7fe6a351820ee6c80deac910f604d99782b5205080e9a70437ecb616eeba09.jpg?x-oss-process=image/quality,Q_80/format,webp"
+    ],
+    "share_urls": {
+        "wechat": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+        "wechat_user": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+        "qzone": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+        "weibo": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/",
+        "shanbay": "https://www.shanbay.com/soup/mobile/quote/2021-01-20/"
+    },
+    "daily_audio_urls": null,
+    "share_img_urls": [
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/e7bd832f36427454322ea695d2a229d8.c62f0684461a4a9106cc95ab999ac5fd.jpeg",
+        "https://media-image1.baydn.com/soup_pub_image/bnznli/e7bd832f36427454322ea695d2a229d8.c62f0684461a4a9106cc95ab999ac5fd.jpeg"
+    ],
+    "translation": "行动是所有成功的根本。"
 }
 ```
 
